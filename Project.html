@@ -2,64 +2,92 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Personal Profil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project - Tia Ulhaq Ulaya</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>My Project</h1>
-    <nav>
-      <a href="index.html">Home</a> | <a href="About.html">About</a> |
-      <a href="Project.html">Project</a> |
-      <a href="Contact.html">Contac</a> | <a href="Skills.html">Skills</a>
-    </nav>
-    <hr />
-    <h2>Daftar Project</h2>
-    <p>Berikut adalah beberapa project yang sudah saya kerjakan</p>
-    <img src="assets/project1.png" alt="Foto project 1" width="240" />
-    <h3>Project 1: Game KRESWARA</h3>
-    <p>
-      Game yang dikemas dalam bentuk cerita dan ada budaya didalamnya <br>
-      Repository: <a href="lihat di Github" > Lihat di Github</a>
-    </p>
-    <img src="assets/project2.png" alt="Foto project 2" width="240" />
-    <h3>Project 2: Platform Orkestrasi Tour Guide Zam-zam Hidden Spot (ZHS)</h3>
-    <p>Prototype yang berkembang dibidang wisata dan tourism</p>
-    <h2>Teknologi yang Digunakan</h2>
-    <ul>
-      <li>ren.py</li>
-      <li>Figma</li>
+    <div class="container">
+      <h1>My Project</h1>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Project.html">Project</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Skills.html">Skills</a>
+      </nav>
+      <hr />
+      <h2>Daftar Project</h2>
+      <p>Berikut adalah beberapa project yang sudah saya kerjakan.</p>
+      <div class="daftar-project">
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="assets/project1.png"
+            alt="Foto project Game KRESWARA"
+          />
+          <h3>Project 1: Game KRESWARA</h3>
+          <p>
+            Game yang dikemas dalam bentuk cerita dan terdapat unsur budaya di
+            dalamnya.
+          </p>
+          <p>
+            Repository:
+            <a href="#">Lihat di Github</a>
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="assets/project2.png"
+            alt="Foto project ZHS"
+          />
+          <h3>
+            Project 2: Platform Orkestrasi Tour Guide Zam-zam Hidden Spot (ZHS)
+          </h3>
+          <p>Prototype yang berkembang di bidang wisata dan tourism.</p>
+        </div>
+      </div>
+      <h2>Teknologi yang Digunakan</h2>
+      <ul class="daftar-teknologi">
+    <li>Ren'Py</li>
+    <li>Figma</li>
     </ul>
-    <h2>Ringkasan Project</h2>
-    <table border="1">
-      <thead>
-        <tr>
-          <th colspan="4">Ringkasan Portofolio Project</th>
-        </tr>
-        <tr>
-          <th rowspan="2">No.</th>
-          <th rowspan="2">Nama Project</th>
-          <th colspan="2">Detail Project</th>
-        </tr>
-        <tr>
-          <th>Teknologi</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Game KRESWARA</td>
-          <td>ren.py</td>
-          <td rowspan="2">Selesai</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Platform Orkestrasi Tour Guide Zam-zam Hidden Spot (ZHS)</td>
-          <td>Figma</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <p><a href="Contact.html">Tertarik berdiskusi dengan saya?</a></p>
-    <p>© 2026 Tia Ulhaq Ulaya</p>
+      <h2>Ringkasan Project</h2>
+      <table class="tabel-project">
+        <thead>
+          <tr>
+            <th colspan="4">Ringkasan Portofolio Project</th>
+          </tr>
+          <tr>
+            <th rowspan="2">No.</th>
+            <th rowspan="2">Nama Project</th>
+            <th colspan="2">Detail Project</th>
+          </tr>
+          <tr>
+            <th>Teknologi</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Game KRESWARA</td>
+            <td>Ren'Py</td>
+            <td rowspan="2">Selesai</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Platform Orkestrasi Tour Guide Zam-zam Hidden Spot (ZHS)</td>
+            <td>Figma</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+      <p>
+        <a href="Contact.html"> Tertarik berdiskusi dengan saya? </a>
+      </p>
+      <p id="footer">© 2026 Tia Ulhaq Ulaya</p>
+    </div>
   </body>
 </html>

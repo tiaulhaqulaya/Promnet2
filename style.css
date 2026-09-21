@@ -1,0 +1,406 @@
+body {
+    background: linear-gradient(to bottom, #F2CFBB, #E9E29B);
+    font-family: "Poppins", Arial, sans-serif;
+    color: #4F542B;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+
+h1 {
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 32px;
+    color: #8E9546;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 26px;
+    color: #8E9546;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 21px;
+    color: #F28892;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 18px;
+    color: #8E9546;
+    margin-bottom: 10px;
+}
+
+
+
+p {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #4F542B;
+    margin-bottom: 15px;
+}
+
+.container p {
+    max-width: 750px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+
+
+
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 20px;
+    margin: 20px auto;
+
+    border: 2px solid #8E9546;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.menu a {
+    color: #8E9546;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #FFFFFF;
+    background-color: #F1B4AF;
+}
+
+
+
+
+.foto-profil {
+    display: block;
+    width: 220px;
+    height: 220px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 4px solid #8E9546;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    animation: muncul 1s ease;
+}
+
+#tentang {
+    color: #8E9546;
+    font-size: 26px;
+}
+
+#footer {
+    max-width: none;
+    text-align: center;
+    color: #8E9546;
+    margin-top: 20px;
+}
+
+
+
+.daftar-belajar {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kartu {
+    width: 180px;
+    height: 170px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 2px solid #BBCA6F;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.kartu:hover {
+    transform: translateY(-5px);
+}
+
+.daftar-project {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 320px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #8E9546;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image {
+    display: block;
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    color: #8E9546;
+    font-size: 20px;
+}
+
+.project-card p {
+    font-size: 14px;
+}
+
+
+.tabel-project {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+.tabel-project th,
+.tabel-project td {
+    padding: 10px;
+    border: 1px solid #8E9546;
+}
+
+.tabel-project th {
+    background-color: #8E9546;
+    color: #E9E29B;
+}
+
+.tabel-project tbody tr:hover {
+    background-color: #F2CFBB;
+}
+
+
+.data-diri {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+.data-diri th,
+.data-diri td {
+    padding: 10px;
+    border: 1px solid #8E9546;
+}
+
+.data-diri th {
+    background-color: #8E9546;
+    color: #E9E29B;
+}
+
+.data-diri tr:hover {
+    background-color: #F2CFBB;
+}
+
+
+.daftar-hobi {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.daftar-hobi li {
+    background-color: #FFFFFF;
+
+    padding: 10px 15px;
+
+    border: 2px solid #F1B4AF;
+    border-radius: 15px;
+
+    transition: 0.3s;
+}
+
+.daftar-hobi li:hover {
+    background-color: #F1B4AF;
+    color: #FFFFFF;
+}
+
+
+
+.daftar-pendidikan {
+    background-color: #FFFFFF;
+
+    padding: 20px 30px;
+
+    border-left: 5px solid #8E9546;
+    border-radius: 10px;
+}
+
+.daftar-pendidikan li {
+    padding: 8px;
+}
+
+
+
+.daftar-skill {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    width: 220px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #BBCA6F;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-card h3 {
+    color: #8E9546;
+    font-size: 20px;
+    text-align: center;
+}
+
+.skill-card ul {
+    padding-left: 20px;
+}
+
+.skill-card li {
+    margin-bottom: 8px;
+}
+
+
+.daftar-target {
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    border: 2px solid #F1B4AF;
+    border-radius: 15px;
+}
+
+.daftar-target li {
+    margin-bottom: 10px;
+}
+
+
+.form-kontak {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+.form-kontak th,
+.form-kontak td {
+    padding: 10px;
+    border: 1px solid #BBCA6F;
+}
+
+.form-kontak th {
+    background-color: #8E9546;
+    color: #E9E29B;
+    font-size: 20px;
+}
+
+.form-kontak .label {
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+    color: #8E9546;
+}
+
+.form-kontak input[type="text"],
+.form-kontak input[type="email"],
+.form-kontak input[type="tel"],
+.form-kontak input[type="date"],
+.form-kontak select,
+.form-kontak textarea {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #BBCA6F;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.form-kontak textarea {
+    resize: vertical;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button input {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #8E9546;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-button input:hover {
+    background-color: #F1B4AF;
+}
+
+.catatan {
+    font-size: 13px;
+}
+
+.daftar-teknologi {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+}
+
+.daftar-teknologi li {
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border: 2px solid #F1B4AF;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.daftar-teknologi li:hover {
+    background-color: #F1B4AF;
+    color: #FFFFFF;
+}
