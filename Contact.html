@@ -2,123 +2,98 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact - Tia Ulhaq Ulaya</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Personal Profil</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <h1>Contact Me</h1>
-      <nav class="menu">
-        <a href="index.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="Project.html">Project</a>
-        <a href="Contact.html">Contact</a>
-        <a href="Skills.html">Skills</a>
-      </nav>
-      <hr />
-      <h2>Informasi Kontak</h2>
-      <p>
-        Jika Anda ingin berdiskusi atau bekerja sama, silakan hubungi saya
-        melalui form berikut. Anda juga dapat mengirim email ke
-        <a href="mailto:tiaulhaq9@gmail.com"> tiaulhaq9@gmail.com </a>
-      </p>
-      <h2>Form Pesan</h2>
-      <form>
-        <table class="form-kontak">
-          <tr>
+    <h1>Contac Me</h1>
+    <nav class="menu">
+      <a href="index.html">Home</a>  <a href="About.html">About</a>  <a href="Project.html">Project</a> 
+      <a href="Contact.html">Contac</a>  <a href="Skills.html">Skills</a>
+    </nav>
+    <hr />
+    <h2>Informasi Kontak</h2>
+    <p>
+      Jika Anda ingin berdiskusi atau bekerja sama, silahkan hubungi saya
+      melalui form berikut. <br />Anda juga dapat mengirim email ke
+      <a href="mailto:tiaulhaq9@gmail.com">tiaulhaq9@gmail.com</a>
+    </p>
+    <h2>From Pesan</h2>
+    <table
+        border="1px solid"
+        width="50%"
+        style="border-collapse: collapse; "
+      >
+      <tr>
             <th colspan="2">Form Data Kontak</th>
-          </tr>
-          <tr>
-            <td class="label">Nama</td>
-            <td>
-              <input type="text" name="nama" />
-            </td>
-          </tr>
-          <tr>
-            <td class="label">Email</td>
-            <td>
-              <input type="email" name="email" />
-            </td>
-          </tr>
-          <tr>
-            <td class="label">Nomor Telepon</td>
-            <td>
-              <input type="tel" name="nomor_telepon" />
-            </td>
-          </tr>
-          <tr>
-            <td class="label">Jenis Kelamin</td>
-            <td>
-              <input type="radio" name="jenis_kelamin" value="Laki-laki" />
-              Laki-laki
-              <input type="radio" name="jenis_kelamin" value="Perempuan" />
-              Perempuan
-            </td>
-          </tr>
-          <tr>
-            <td class="label">Tanggal Lahir</td>
-            <td>
-              <input type="date" name="tanggal_lahir" />
-            </td>
-          </tr>
-          <tr>
-            <td class="label">Topik Pesan</td>
-            <td>
-              <select name="topik_pesan">
-                <option value="">Pilih topik</option>
-                <option value="Pertanyaan">Pertanyaan</option>
-                <option value="Kerjasama">Kerjasama</option>
-                <option value="Project">Project</option>
-                <option value="Diskusi">Diskusi</option>
-                <option value="Saran">Saran</option>
-                <option value="Lainnya">Lainnya</option>
-              </select>
-            </td>
-          </tr>
-          <tr>
-            <td class="label">Jenis Pesan</td>
-            <td>
-              <input type="radio" name="jenis_pesan" value="Pertanyaan" />
-              Pertanyaan
-              <input type="radio" name="jenis_pesan" value="Saran" />
-              Saran
-              <input type="radio" name="jenis_pesan" value="Lainnya" />
-              Lainnya
-            </td>
-          </tr>
-          <tr>
-            <td class="label">Pesan</td>
-            <td>
-              <textarea name="pesan" rows="5"></textarea>
-            </td>
-          </tr>
-          <tr>
-            <td class="label">Salin Pesan</td>
-            <td>
-              <input type="checkbox" name="salin_pesan" value="Ya" />
-              Kirim salinan pesan ke email saya
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2" class="form-button">
-              <input type="submit" value="Kirim Pesan" />
-              <input type="reset" value="Reset" />
-            </td>
-          </tr>
-        </table>
-      </form>
-      <p class="catatan">
-        <em>
-          Catatan: karena website ini hanya menggunakan HTML, form belum
-          terhubung ke server atau database.
-        </em>
-      </p>
-      <hr />
-      <p>
-        <a href="index.html">Kembali ke Home</a>
-      </p>
-      <p id="footer">© 2026 Tia Ulhaq Ulaya</p>
-    </div>
+        </tr>
+        <tr>
+          <td class="label" align="right">Nama :</td>
+          <td class="input"><input type="text" name="nama" /></td>
+        </tr>
+        <tr>
+          <td class="label" align="right">Email :</td>
+          <td class="input"><input type="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td class="label" align="right">Nomor Telepon :</td>
+          <td class="input"><input type="Nomor Telepon" name="Nomor Telepon" /></td>
+        </tr>
+        <tr>
+          <td class="label" align="right">Jenis Kelamin :</td>
+          <td class="input">
+            <input type="radio" name="laki-laki" value="Laki-laki" /> Laki-laki
+            <input type="radio" name="perempuan" value="Perempuan" /> Perempuan
+          </td>
+        </tr>
+        <tr>
+          <td class="label" align="right">Tanggal Lahir :</td>
+          <td class="input"><input type="date" name="tanggal_lahir" /></td>
+        </tr>
+        <tr>
+          <td class="label" align="right">Topik Pesan :</td>
+          <td>
+            <select name="Topik Pesan">
+              <option></option>
+              <option value="Pertanyaan">Pertanyaan</option>
+              <option value="Kerjasama">Kerjasama</option>
+              <option value="Project">Project</option>
+              <option value="Diskusi">Diskusi</option>
+              <option value="Saran">Saran</option>
+              <option value="Lainnya">Lainnya</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="label" align="right">Jenis Pesan :</td>
+          <td class="input">
+            <input type="radio" name="Pertanyaan" value="Pertanyaan" /> Pertanyaan
+            <input type="radio" name="Saran" value="Saran" /> Saran
+            <input type="radio" name="Lainnya" value="Lainnya" />Lainnya
+          </td>
+        <tr>
+          <td class="label" align="right">Pesan :</td>
+          <td class="textarea">
+            <textarea name="Pesan" rows="5" cols="33"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td class="label" align="right">Salin Pesan :</td>
+          <td>
+            <input type="checkbox" name="Salin Pesan" value="Kirim salinan pesan ke email saya" />Kirim salinan pesan ke email saya
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="submit" value="Kirim pesan" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <p><em>Catatan: karena website ini hanya menggunakan HTML,from belum terhubung keserver database</em></p>
+    <hr />
+    <a href="index.html">Kembali ke Home</a>
+    <br>© 2026 Tia Ulhaq Ulaya</p>
   </body>
 </html>
